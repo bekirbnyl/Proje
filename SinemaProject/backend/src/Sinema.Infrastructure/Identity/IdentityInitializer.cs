@@ -87,7 +87,7 @@ public static class IdentityInitializer
         var users = new[]
         {
             new { Email = "admin@cinema.local", Password = "Admin*123", DisplayName = "System Administrator", Role = "Admin" },
-            new { Email = "testadminkursat@cinema.local", Password = "TestAdmin123!", DisplayName = "Test Administrator", Role = "Admin" },
+            new { Email = "testadminbekir@cinema.local", Password = "TestAdmin123!", DisplayName = "Test Administrator", Role = "Admin" },
             new { Email = "gise@cinema.local", Password = "Gise*123", DisplayName = "Gişe Görevlisi", Role = "GiseGorevlisi" },
             new { Email = "yonetim@cinema.local", Password = "Yonetim*123", DisplayName = "Yönetim", Role = "Yonetim" },
             new { Email = "uye@cinema.local", Password = "Uye*123", DisplayName = "Test Üyesi", Role = "WebUye" }

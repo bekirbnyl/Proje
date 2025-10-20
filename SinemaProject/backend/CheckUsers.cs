@@ -52,7 +52,7 @@ foreach (var role in allRoles)
 
 // Try to create the test admin user manually
 Console.WriteLine("\n=== Creating Test Admin User ===");
-var testEmail = "testadminkursat@cinema.local";
+var testEmail = "testadminbekir@cinema.local";
 var existingTestUser = await userManager.FindByEmailAsync(testEmail);
 
 if (existingTestUser == null)
